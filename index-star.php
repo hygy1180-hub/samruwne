@@ -6,10 +6,10 @@
 
 */
 ob_start();
-$admin_id = '5806409403';
-if($_GET['token']){
+$admin_id = '7379785386';
+if($_GET['8039750253:AAG3Xrft2JOTe2j8sxvq4bAlUYWlcp1bbl8']){
     //احمي البوت من التحديثات الوهمية عبر $_GET
-    $API_KEY = $_GET['token'];
+    $API_KEY = $_GET['8039750253:AAG3Xrft2JOTe2j8sxvq4bAlUYWlcp1bbl8'];
 }else{
     //أو
     //توكن البوت
@@ -103,7 +103,7 @@ if ($update->message) {
                 [
                     'label' => "1",
                     //عدد النجوم
-                    'amount' => 250
+                    'amount' => 1
                 ]
             ]);
             bot('sendInvoice', [
